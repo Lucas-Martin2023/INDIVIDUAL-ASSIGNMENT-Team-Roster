@@ -26,7 +26,7 @@ function ShowMembers() {
   return (
     <div className="text-center my-4">
       <Link href="/member/new" passHref>
-        <Button>Add A Member</Button>
+        <Button>Add A Student</Button>
       </Link>
       <div className="d-flex flex-wrap">
         {/* TODO: map over books here using BookCard component */}

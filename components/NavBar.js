@@ -12,7 +12,7 @@ export default function NavBar() {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Link passHref href="/">
-          <Navbar.Brand>NSS Students</Navbar.Brand>
+          <Navbar.Brand>Some of Aja&apos;s Students</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
@@ -22,7 +22,7 @@ export default function NavBar() {
               <Nav.Link>Home</Nav.Link>
             </Link>
             <Link passHref href="/members">
-              <Nav.Link>Members</Nav.Link>
+              <Nav.Link>Students</Nav.Link>
             </Link>
             <Link passHref href="/member/new">
               <Nav.Link>Add Student</Nav.Link>

@@ -1,0 +1,50 @@
+{
+  "-Nh-Pu-ZVZPP_F0yPTk_": {
+    "firebaseKey": "-Nh-Pu-ZVZPP_F0yPTk_",
+    "image": "http://dummyimage.com/138x100.png/cc0000/ffffff",
+    "name": "Lucas Martin",
+    "role": "student 1",
+    "favorite": true,
+    "uid": "9gIbBGNFiTOAN34VtESgYUqM3bQ2"
+  },
+  "-Nh-Pu-_mA3x8Erz-I4x": {
+    "firebaseKey": "-Nh-Pu-_mA3x8Erz-I4x",
+    "image": "http://dummyimage.com/102x100.png/ff4444/ffffff",
+    "name": "Paul Patterson",
+    "role": "student 2",
+    "favorite": false,
+    "uid": "9gIbBGNFiTOAN34VtESgYUqM3bQ2"
+  },
+  "-Nh-Pu-a7tM8hVzaYF-_": {
+    "firebaseKey": "-Nh-Pu-a7tM8hVzaYF-_",
+    "image": "http://dummyimage.com/188x100.png/dddddd/000000",
+    "name": "Luca Bonini",
+    "role": "student 3",
+    "favorite": false,
+    "uid": "9gIbBGNFiTOAN34VtESgYUqM3bQ2"
+  },
+  "-Nh-Pu-cwBufUKSKHj78": {
+    "firebaseKey": "-Nh-Pu-cwBufUKSKHj78",
+    "image": "http://dummyimage.com/240x100.png/5fa2dd/ffffff",
+    "name": "Cody Tucker",
+    "role": "student 4",
+    "favorite": false,
+    "uid": "9gIbBGNFiTOAN34VtESgYUqM3bQ2"
+  },
+  "-Nh-Pu-d-ysoZT7wyPfg": {
+    "firebaseKey": "-Nh-Pu-d-ysoZT7wyPfg",
+    "image": "http://dummyimage.com/102x100.png/dddddd/000000",
+    "name": "Austin Mangum",
+    "role": "student 5",
+    "favorite": false,
+    "uid": "9gIbBGNFiTOAN34VtESgYUqM3bQ2"
+  },
+  "-Nh-Pu-d-ysoZT7wyPfh": {
+    "firebaseKey": "-Nh-Pu-d-ysoZT7wyPfh",
+    "image": "http://dummyimage.com/110x100.png/5fa2dd/ffffff",
+    "name": "Nicholas Davidson",
+    "role": "student 6",
+    "favorite": false,
+    "uid": "9gIbBGNFiTOAN34VtESgYUqM3bQ2"
+  }
+}

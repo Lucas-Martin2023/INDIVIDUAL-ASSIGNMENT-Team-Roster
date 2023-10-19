@@ -20,7 +20,7 @@ function MemberCard({ memberObj, onUpdate }) {
       <Card.Img variant="top" src={memberObj.image} alt={memberObj.name} style={{ height: '400px' }} />
       <Card.Body>
         <Card.Title>{memberObj.name}</Card.Title>
-        <p className="card-text bold">{memberObj.favorite && <span>Favorite<br /></span> } </p>
+        <p className="card-text bold">{memberObj.favorite && <span>One of Aja&apos;s Favorites<br /></span> } </p>
         {/* DYNAMIC LINK TO VIEW THE BOOK DETAILS  */}
         <Link href={`/member/${memberObj.firebaseKey}`} passHref>
           <Button variant="primary" className="m-2">VIEW</Button>

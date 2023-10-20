@@ -33,7 +33,7 @@ function MemberForm({ obj }) {
     e.preventDefault();
 
     if (obj.firebaseKey) {
-      updateMember(formInput).then(() => router.push(`/member/${obj.firebaseKey}`));
+      updateMember(formInput).then(() => router.push('/members/'));
     } else {
       const payload = { ...formInput, uid: user.uid };
       createMember(payload).then(({ name }) => {
@@ -48,6 +48,8 @@ function MemberForm({ obj }) {
 
   return (
     <>
+      <br />
+      <h1>Add a Student</h1>
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Name</Form.Label>

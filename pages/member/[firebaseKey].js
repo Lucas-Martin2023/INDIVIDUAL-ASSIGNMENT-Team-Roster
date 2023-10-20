@@ -26,8 +26,9 @@ export default function ViewMember() {
         </div>
         <div className="text-white ms-5 details">
           <h5>
-            {memberDetails.title} Student: {memberDetails.name}
-            {memberDetails.favorite ? '🤍' : ''}
+            Student: {memberDetails.name} {memberDetails.favorite ? '🤍' : ''}
+            <br />
+            Role: {memberDetails.role}
           </h5>
           <p>{memberDetails.description || ''}</p>
           <br />
